@@ -1,7 +1,7 @@
 const panoImg=document.querySelector(".panoImage");
 
 
-const panorama = new PANOLENS.ImagePanorama('/college360.jpg');
+const panorama = new PANOLENS.ImagePanorama('https://danielprinced.github.io/clgWeb/college360.jpg');
 const viewerpano = new PANOLENS.Viewer(
     {
         container:panoImg,
