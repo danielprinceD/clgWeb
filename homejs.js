@@ -50,6 +50,7 @@ createDataDetailDiv.innerText="Adding Up Provides the CGPI score Calculator for 
 
 websiteCgpiEl.addEventListener('mouseleave',()=>
 {
+    websiteCgpiEl.childNodes[0].childNodes[0].setAttribute('style','animation:none');
     websiteCgpiEl2.setAttribute('style','display:flex');
     websiteCgpiEl3.setAttribute('style','display:flex');
     createDataDiv.remove();
@@ -59,7 +60,7 @@ websiteCgpiEl.addEventListener('mouseleave',()=>
 
 
 
-websiteCgpiEl2.addEventListener('mouseenter',function createAnime(){
+websiteCgpiEl2.addEventListener('mouseenter',function createAnime1(){
 
 const createDataDiv=document.createElement('div')
 const createDataHeaderDiv=document.createElement('div')
@@ -89,6 +90,7 @@ createDataDetailDiv.innerText="The Updated Events and Announcements is provided 
 
 websiteCgpiEl2.addEventListener('mouseleave',()=>
 {
+    websiteCgpiEl2.childNodes[0].childNodes[0].setAttribute('style','animation:none');
     websiteCgpiEl3.setAttribute('style','display:flex');
     websiteCgpiEl.setAttribute('style','display:flex');
     createDataDiv.remove();
@@ -99,7 +101,7 @@ websiteCgpiEl2.addEventListener('mouseleave',()=>
 
 
 
-websiteCgpiEl3.addEventListener('mouseenter',function createAnime(){
+websiteCgpiEl3.addEventListener('mouseenter',function createAnime2(){
 
     const createDataDiv=document.createElement('div')
     const createDataHeaderDiv=document.createElement('div')
@@ -130,6 +132,7 @@ websiteCgpiEl3.addEventListener('mouseenter',function createAnime(){
     
     websiteCgpiEl3.addEventListener('mouseleave',()=>
     {
+        websiteCgpiEl3.childNodes[0].childNodes[0].setAttribute('style','animation:none');
         websiteCgpiEl2.setAttribute('style','display:flex;');
         websiteCgpiEl.setAttribute('style','display:flex;');
         createDataDiv.remove();
