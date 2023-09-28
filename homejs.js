@@ -45,8 +45,8 @@ headerEl.setAttribute('class','head');
 websiteCgpiEl2.setAttribute('style','display:none');
 websiteCgpiEl3.setAttribute('style','display:none');
 
-headerEl.innerText="CGPI Score Checker"
-createDataDetailDiv.innerText="Adding Up Provides the CGPI score Calculator for Students in PSR Engineering College"
+headerEl.innerText="CGPI Calculator"
+createDataDetailDiv.innerText="Effortlessly track your academic progress with our CGPI value checking feature, providing instant access to your Cumulative Grade Point Index."
 
 websiteCgpiEl.addEventListener('mouseleave',()=>
 {
@@ -86,7 +86,7 @@ websiteCgpiEl.setAttribute('style','display:none');
 websiteCgpiEl3.setAttribute('style','display:none');
 
 headerEl.innerText="Student Notice Board"
-createDataDetailDiv.innerText="The Updated Events and Announcements is provided in notice board  "
+createDataDetailDiv.innerText="Stay informed and updated with our student notice board feature, your go-to source for important announcements and campus news. "
 
 websiteCgpiEl2.addEventListener('mouseleave',()=>
 {
@@ -127,8 +127,8 @@ websiteCgpiEl3.addEventListener('mouseenter',function createAnime2(){
     websiteCgpiEl.setAttribute('style','display:none');
     websiteCgpiEl2.setAttribute('style','display:none');
     
-    headerEl.innerText="Program Quiz"
-    createDataDetailDiv.innerText="Technical and problem solving skills can be improved"
+    headerEl.innerText="Programming Quiz"
+    createDataDetailDiv.innerText="Stay informed and updated with our student notice board feature, your go-to source for important announcements and campus news."
     
     websiteCgpiEl3.addEventListener('mouseleave',()=>
     {
