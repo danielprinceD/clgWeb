@@ -150,9 +150,3 @@ websiteCgpiEl3.addEventListener('mouseenter',function createAnime2(){
     })
     
 });
-
-
-
-
-
-
