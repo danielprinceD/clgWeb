@@ -1,0 +1,25 @@
+.head 
+{
+    text-align: center;
+    font-size: xx-large;
+    position: sticky;
+    top: 0px;
+    
+    background: rgb(144,61,208);
+background: linear-gradient(0deg, rgba(144,61,208,1) 20%, rgba(45,129,253,1) 79%);
+    color:white;
+    font-weight: 800;
+    font-style: italic;
+}
+div
+{
+    padding: 20px ;
+}
+body
+{
+    margin: 0px;
+}
+#quiz{
+    width: 100% !important;
+    align-items: center;
+}

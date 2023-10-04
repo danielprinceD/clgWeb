@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Quiz</title>
+    <link rel="stylesheet" href="quizcss.css">
+</head>
+<body>
+    
+    <div class="head">Programming Quiz</div>
+    <div class="quizz">
+        <iframe id="quiz"  src=""  height="1024" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+    <script>
+        const quizId=document.getElementById("quiz")
+        const RandNum=Math.round(Math.random()*5)
+
+        if (RandNum==0)
+        {
+            quizId.setAttribute('src',"https://forms.gle/Zv69tVL8tAEz8cbVA")
+        }else if (RandNum==1)
+        {
+            quizId.setAttribute('src',"https://forms.gle/hLXhfnE86EBy3PVF9")   
+        }else if (RandNum==2)
+        {
+            quizId.setAttribute('src',"https://forms.gle/Zv69tVL8tAEz8cbVA")
+        }else if (RandNum==3)
+        {
+            quizId.setAttribute('src',"https://forms.gle/hwSBoJG4DQa6eMJ19")
+        }else if (RandNum==4)
+        {
+            quizId.setAttribute('src',"https://forms.gle/hwSBoJG4DQa6eMJ19")
+            
+        }else if (RandNum==5)
+        {
+            quizId.setAttribute('src',"https://forms.gle/hLXhfnE86EBy3PVF9")
+            
+        }
+
+        
+
+    </script>
+</body>
+</html>
